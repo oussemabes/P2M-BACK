@@ -17,10 +17,10 @@ pipeline {
         DB_USER = 'besbes'
         DB_PASSWORD = 'letmein'
         DB_DATABASE = 'auctiondb'
-        DOCKER_IMAGE_NAME = 'mahdiboudaouara/nodeappimage'
+        DOCKER_IMAGE_NAME = 'oussemabes/serverappimage'
         PROJECT_NAME = 'server'
         REPO_SERVER = '739761511001.dkr.ecr.eu-central-1.amazonaws.com'
-        ECR_REGISTRY = '739761511001.dkr.ecr.eu-central-1.amazonaws.com/ecr-mahdi'
+        ECR_REGISTRY = '739761511001.dkr.ecr.eu-central-1.amazonaws.com/ecr-besbes'
         APP_URL = '139-144-162-115.ip.linodeusercontent.com'
         AWS_REGION = 'eu-central-1'
     }
